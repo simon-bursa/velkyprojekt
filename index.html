@@ -23,15 +23,11 @@
               display: inline;
             }
 
-            .wrapper {
-              margin-right: auto;
-              margin-left:  auto;
+            body {
+              max-width: 960px; margin: 0 auto;
+              background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,1,43,1) 0%, rgba(5,2,67,1) 10%, rgba(10,4,126,1) 83%, rgba(9,28,141,1) 100%, rgba(0,212,255,1) 100%, rgba(9,9,121,1) 100%);
 
-              max-width: 960px; 
-            
-
-              padding-right: 10px; 
-              padding-left:  10px;
             }
 
             img {
@@ -43,7 +39,7 @@
             font-family: "Poppins", sans-serif;
             font-weight: 700;
             font-style: normal;
-            font-size: 3.2vw;
+            font-size: 1.8vw;
             }
 
             .poppins-bold2 {
@@ -56,7 +52,7 @@
               font-family: "Poppins", sans-serif;
               font-weight: 400;
               font-style: normal;
-              font-size:  2vw;
+              font-size:  1.2vw;
             }
 
             .rubik {
@@ -66,21 +62,21 @@
               font-style: normal;
               font-size:  2vw;
             }
-            
+
         </style>
       </head>
-      <body>
-        <header class="text-gray-600 body-font border-2 border-gray-200 sticky sticky top-0 z-50 bg-white">
+      <body class="text-white">
+        <header class=" body-font border-2 border-black-200 sticky sticky top-0 z-50 bg-black">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <span class="ml-3 text-xl poppins-bold2">Programovací jazyky</span>
+                <span class="ml-3 text-xl poppins-bold2 text-white">Programovací jazyky</span>
               </a>
       
               <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <ul>
-                  <li><a class="mr-5 hover:text-gray-900" href="#">Hlavní stránka</a></li>
-                  <li><a class="mr-5 hover:text-gray-900" href="./src/jazyky.html">Programovací jazyky</a></li>
-                  <li><a class="mr-5 hover:text-gray-900" href="./src/javascript.html">Zdroje</a></li>
+                  <li><a class="mr-5 hover:text-gray-400 poppins-bold2" href="#">Hlavní stránka</a></li>
+                  <li><a class="mr-5 hover:text-gray-400 poppins-bold2" href="./src/jazyky.html">Programovací jazyky</a></li>
+                  <li><a class="mr-5 hover:text-gray-400 poppins-bold2" href="./src/javascript.html">Zdroje</a></li>
                 </ul>
               </nav>
             </div>
@@ -88,7 +84,7 @@
           
 
           
-          <div class="p-12">
+            <div class="p-12">
               <div class="h-full overflow-hidden">
                   <div class="p-12">
                       <p class="leading-relaxed mb-3 poppins-bold ">
@@ -108,37 +104,30 @@
               </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-3 p-12">
-              <div class="box-border col-span-6 align-middle rounded-lg ">
-                <p class="poppins-bold">Od webových stránek k robotice</p>
-                <p class="poppins-regular text-justify">Programovací jazyky se používají v široké škále oblastí. Tvoří základ webových stránek a aplikací, které denně používáme.</p>
+            <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
+              <div class="flex flex-col justify-center col-span-6">
+                <p class="poppins-bold text-center gap-3">Od webů k robotice</p>
+                <p class="poppins-regular text-justify gap-3">Programovací jazyky se používají v široké škále oblastí. Tvoří základ webových stránek a aplikací, které denně používáme.</p>
               </div>
-
-              <div class="box-border col-span-6 text-center border-2 border-gray-200 border-opacity-60 rounded-lg">
-                <img src="./images/paleta.png"> 
-              </div>
-            </div>
-
-            <div class="grid grid-cols-12 gap-3 p-12">
-              <div class="box-border col-span-6 text-center border-2 border-gray-200 border-opacity-60 rounded-lg">
-                <img src="./images/paleta.png"> 
-              </div>
-              <div class="box-border col-span-6 text-center border-2 border-gray-200 border-opacity-60 rounded-lg ">
-                <br><br><strong>Cesta k programování</strong> Naučit se programovat vyžaduje čas, píli a trpělivost. Stejně jako učení se jinému jazyku je důležitá praxe a experimentování. K dispozici je mnoho online i offline zdrojů, které vám pomohou s prvními kroky. Mnoho kurzů a tutoriálů vás provede základy programování a pomůže vám s výběrem jazyka, který odpovídá vašim zájmům a cílům.
+              <div class="box-border col-span-6 rounded-lg">
+                <img src="./images/robot.png"> 
               </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-3 p-12">
-              <div class="box-border col-span-6 text-center border-2 border-gray-200 border-opacity-60 rounded-lg ">
-                <br><br><strong>Cesta k programování</strong> Naučit se programovat vyžaduje čas, píli a trpělivost. Stejně jako učení se jinému jazyku je důležitá praxe a experimentování. K dispozici je mnoho online i offline zdrojů, které vám pomohou s prvními kroky. Mnoho kurzů a tutoriálů vás provede základy programování a pomůže vám s výběrem jazyka, který odpovídá vašim zájmům a cílům.
+            <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
+              <div class="box-border col-span-6 rounded-lg">
+                <img src="./images/computer.png"> 
               </div>
-              <div class="box-border col-span-6 text-center border-2 border-gray-200 border-opacity-60 rounded-lg">
-                <img src="./images/paleta.png"> 
+              <div class="flex flex-col justify-center col-span-6">
+                <p class="poppins-bold text-center gap-3">Cesta k programování</p>
+                <p class="poppins-regular text-justify gap-3">Naučit se programovat vyžaduje čas, píli a trpělivost. Stejně jako učení se jinému jazyku je důležitá praxe a experimentování.</p>
               </div>
+              
             </div>
+
 
             <div class="p-12">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden text-center">
+              <div class="h-full  overflow-hidden text-center">
                   <div class="p-12">
                       <p class="poppins-bold">Začněte už dnes</p>
                       <p>Pokud vás láká svět programování, neváhejte a udělejte první krok. Existuje mnoho online platforem a komunit, které vám pomohou s učením a zodpoví vaše otázky. Programování není jen pro vyvolené, ale pro všechny, kteří se chtějí učit a rozvíjet své dovednosti v digitálním věku.</p>
@@ -152,15 +141,11 @@
               
           </div>
 
-
-
-
-
           <footer>
-            <div class="bg-gray-100">
+            <div class="">
               <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                <p class="text-gray-500 ">© 2024 —
-                  <a href="https://github.com/simon-bursa" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">Github</a>
+                <p class="text-white-500 ">© 2024 —
+                  <a href="https://github.com/simon-bursa" rel="noopener noreferrer" class="text-white-500 ml-1" target="_blank">Github</a>
                 </p>
               </div>
             </div>
