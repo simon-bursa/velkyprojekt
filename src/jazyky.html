@@ -1,16 +1,13 @@
 <!DOCTYPE html>
     <html lang="cs">
       <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-          rel="stylesheet"
-        />
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <script src="https://cdn.tailwindcss.com"></script>
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
           rel="stylesheet"  
-        />
+        >
         <link rel="stylesheet" href="./styles.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,14 +20,14 @@
         <header class=" body-font border-1 sticky sticky top-0 z-50 bg-blue-700 rounded-lg">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <span class="ml-3 text-xl poppins-bold2 text-white">Programovací jazyky</span>
+                <span class="ml-3 text-xl poppins--bold_small text-white">Programovací jazyky</span>
               </a>
       
               <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <ul>
-                  <li><a class="mr-5 hover:text-gray-400 poppins-bold2" href="#">Hlavní stránka</a></li>
-                  <li><a class="mr-5 hover:text-gray-400 poppins-bold2" href="./src/jazyky.html">Programovací jazyky</a></li>
-                  <li><a class="mr-5 hover:text-gray-400 poppins-bold2" href="./src/javascript.html">Zdroje</a></li>
+                  <li><a class="mr-5 hover:text-gray-400 poppins--bold_small" href="../index.html">Hlavní stránka</a></li>
+                  <li><a class="mr-5 hover:text-gray-400 poppins--bold_small" href="./jazyky.html">Programovací jazyky</a></li>
+                  <li><a class="mr-5 hover:text-gray-400 poppins--bold_small" href="./zdroje.html">Zdroje</a></li>
                 </ul>
               </nav>
             </div>
@@ -40,7 +37,7 @@
             <div class="p-12">
                 <div class="h-full overflow-hidden">
                     <div class="p-12">
-                        <p class="leading-relaxed mb-3 poppins-bold">Jaké tedy máme programovací jazyky na výběr?</p>
+                        <p class="leading-relaxed mb-3 poppins--bold " style="font-size: 4vh;">Jaké tedy máme programovací jazyky na výběr?</p>
                     </div>
                 </div>
               </div>
@@ -48,31 +45,31 @@
   
               <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
                 <div class="box-border col-span-6 rounded-lg">
-                  <img src="./images/paleta.png"> 
+                  <img src="../images/python.png" alt="Python"> 
                 </div>
                 <div class="flex flex-col justify-center col-span-6">
-                  <p class="poppins-bold text-center gap-3">Python</p>
-                  <p class="poppins-regular text-justify gap-3">Stejně jako existuje mnoho druhů nástrojů pro různé práce, i programovací jazyky se liší v oblastech použití.</p>
+                  <p class="poppins--bold text-center gap-3">Python</p>
+                  <p class="poppins--regular text-center gap-3">Snadný, výkonný, všestranný jazyk.</p>
                 </div>
               </div>
   
               <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
                 <div class="flex flex-col justify-center col-span-6">
-                  <p class="poppins-bold text-center gap-3">JavaScript</p>
-                  <p class="poppins-regular text-justify gap-3">Programovací jazyky se používají v široké škále oblastí. Tvoří základ webových stránek a aplikací, které denně používáme.</p>
+                  <p class="poppins--bold text-center gap-3">JavaScript</p>
+                  <p class="poppins--regular text-center gap-3">Moderní jazyk webového vývoje.</p>
                 </div>
                 <div class="box-border col-span-6 rounded-lg">
-                  <img src="./images/robot.png"> 
+                  <img src="../images/js.png" alt="JS"> 
                 </div>
               </div>
   
               <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
                 <div class="box-border col-span-6 rounded-lg">
-                  <img src="./images/computer.png"> 
+                  <img src="../images/java.png" alt="Java"> 
                 </div>
                 <div class="flex flex-col justify-center col-span-6">
-                  <p class="poppins-bold text-center gap-3">Java</p>
-                  <p class="poppins-regular text-justify gap-3">Naučit se programovat vyžaduje čas, píli a trpělivost. Stejně jako učení se jinému jazyku je důležitá praxe a experimentování.</p>
+                  <p class="poppins--bold text-center gap-3">Java</p>
+                  <p class="poppins--regular text-center gap-3">Univerzální multiplatformní programovací jazyk.</p>
                 </div>
                 
               </div>
@@ -80,26 +77,26 @@
               <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
                   
                   <div class="flex flex-col justify-center col-span-6">
-                    <p class="poppins-bold text-center gap-3">C</p>
-                    <p class="poppins-regular text-justify gap-3">Naučit se programovat vyžaduje čas, píli a trpělivost. Stejně jako učení se jinému jazyku je důležitá praxe a experimentování.</p>
+                    <p class="poppins--bold text-center gap-3">C</p>
+                    <p class="poppins--regular text-center gap-3">Efektivní a výkonný programovací jazyk.</p>
+                    
                   </div>
                   <div class="box-border col-span-6 rounded-lg">
-                      <img src="./images/computer.png"> 
+                      <img src="../images/c.png" alt="C"> 
                     </div>
                   
                 </div>
   
                 <div class="grid grid-cols-12 border-gray-200 border-opacity-60 gap-1 p-12">
                   <div class="box-border col-span-6 rounded-lg">
-                    <img src="./images/computer.png"> 
+                    <img src="../images/csharp.png" alt="C#"> 
                   </div>
                   <div class="flex flex-col justify-center col-span-6">
-                    <p class="poppins-bold text-center gap-3">C#</p>
-                    <p class="poppins-regular text-justify gap-3">Naučit se programovat vyžaduje čas, píli a trpělivost. Stejně jako učení se jinému jazyku je důležitá praxe a experimentování.</p>
+                    <p class="poppins--bold text-center gap-3">C#</p>
+                    <p class="poppins--regular text-center gap-3">Silný, moderní, objektově orientovaný jazyk.</p>
                   </div>
-                  
                 </div>
-            </div>
+            
   
             <footer>
               <div class="">
@@ -111,8 +108,5 @@
               </div>
             </footer>
           </div>
-          
-            
-           
       </body>
     </html>
